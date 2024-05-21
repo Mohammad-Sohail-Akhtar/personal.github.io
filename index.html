@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef4067aca3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Mohammad Sohail Akhtar</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                 </nav>
+          
+            <div class="header-text">
+               
+                <h1>Hi, My name is <span class="purple">Mohammad Sohail Akhtar</span>
+                and I am a passionate</h1>
+                <span id="element"></span>
+            </div>
+            
+        
+        </div>
+    </div>
+
+<!-- about page -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus exercitationem numquam suscipit aut, quibusdam sit delectus ratione voluptatibus assumenda qui dolorem! Inventore ipsum laboriosam consequatur libero animi accusantium id, dolores labore deserunt deleniti perspiciatis aliquam ratione quia voluptate tempora. Sint, culpa accusamus. Perferendis consequatur facilis quaerat, suscipit quis aperiam?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface.</li>
+                            <li><span>Web Development</span><br>Developing of Web.</li>
+                            <li><span>React JS</span><br>Basic Knowledge</li>
+                            <li><span>Bootstrap</span><br>Development of Web with the framework.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 continue</span><br>BSc(hons) Computer Science with Artificial Intelligence. <br>Sunway College,Kathmandu.</li>
+                            <li><span>2018-2020</span><br>Intermediate Level. <br>Goldengate International College,Kathmandu.</li>
+                            <li><span>2023</span><br>Website Design,Development,JavaScript,ReactJs <br>At Broadways Infosys,Kathmandu.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am a Designer and I mainly uses the the figma for the UI/UX design.</p>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>Web Development</h2>
+                    <p>I have the skillfull knowledge in HTML, CSS and basic knowledge in JavaScript, ReactJs and for the development of the Website I sometimes uses the bootstrap and tailwind which is the framework.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/web-development-2.png" alt="">
+                    <div class="layer">
+                        <h3>Eschool Website</h3>
+                        <p>This is the clone website from the figma and is my first ever website.</p>
+                        <a href="https://mohammad-sohail-akhtar.github.io/Projecteschool.github.io/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web-development-2.png" alt="">
+                    <div class="layer">
+                        <h3>Netflix Website</h3>
+                        <p>Here, I have used basic of the ReactJs and in the react this is my first project.</p>
+                        <a href=" https://mohammad-sohail-akhtar.github.io/netflix"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web-development-2.png" alt="">
+                    <div class="layer">
+                        <h3>Figma Project Design</h3>
+                        <p>It is figma design of my college project and the website design is basically of the bookstore type.</p>
+                        <a href="https://www.figma.com/proto/AnSxEPjs5tODjWfd0sj0k8/web1?node-id=295-23&t=ltyUhrx3pfNC1qN2-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=295%3A23&show-proto-sidebar=1"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>akhtarshehzade1122@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+977-9804288272 , +977-9840600672</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mohammad-sohail-akhtar-324016263/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Mohammad-Sohail-Akhtar"><i class="fa-brands fa-github"></i></i></a>
+                    </div>
+                    <a href="CV/Sohail.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name required">
+                        <input type="Email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Mohammad Sohail Akhtar's Portfolio</p>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ["Web Developer.", "Web Designer."],
+            typeSpeed: 50,
+        });
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
